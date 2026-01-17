@@ -50,6 +50,7 @@ margin-left: 120px;
     border-radius: 5px;
     color: #FFFFFF;
     padding: 12.5px 16px;
+    cursor: pointer;
 }
 .banner-section{
     max-width: 1600px;
@@ -65,6 +66,7 @@ margin-left: 120px;
     max-width: 229px;
     margin: 0 auto;
     justify-content: center;
+    cursor: pointer;
 }
 
 .banner-heading .heading-btn button {
@@ -75,6 +77,7 @@ margin-left: 120px;
     background-color:#f3f8f6;
     color:#2f7d57;
     font-size: 14px;
+    cursor: pointer;
 }
 .banner-heading .heading{
     width: 770px;
@@ -111,6 +114,7 @@ margin-left: 120px;
     height: 52px;
     margin: 0 auto;
     align-items: center;
+    cursor: pointer;
 }
 .btn-1{
     max-width: 251px;
@@ -123,17 +127,19 @@ margin-left: 120px;
      line-height: 19px;
      border: none;
      border-radius: 5px;
+     cursor: pointer;
 }
 .btn-2{
     max-width: 198px;
     height: 52px;
-     margin-top: 32px;
+    margin-top: 32px;
     padding: 12px 16px 12px 16px;
-     font-weight: 600;
-     border: 1px solid #FFFFFF;
-      border-radius: 4px;
-      background-color: transparent;
-      color:#FFFFFF;
+    font-weight: 600;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+    color:#FFFFFF;
+    cursor: pointer;
     
    
 }
@@ -228,16 +234,18 @@ color: #001931;
 .second-brain{
    max-width:1600px;
 height: 840px;
-padding: 120px;
+padding-top: 120px;
 display: flex;
-align-items: center;
+
 
 }
 .second-brain-container{
 max-width: 1360px;
 height: 600px;
 display: flex;
-
+align-items: center;
+margin: 0 auto;
+padding: 120px 120px;
 }
 .second-brain.second-brain-container .image{
     width: 600px;
@@ -253,6 +261,7 @@ height: 20px;
 margin-left: 60px;
 line-height: 20px;
 text-align: left;
+align-items: center;
 
 }
 .second-brain-header .large{
@@ -282,8 +291,7 @@ display: flex;
 flex-direction: column;
 gap: 16px;
 }
-
-   .icon-item {
+.icon-item {
 width:700px ;
 height: 20px;
 display: flex;
@@ -305,6 +313,128 @@ color: #001931;
 text-align: left;
 margin-bottom: 16px ;
 }
+.think-section{
+    margin-top: 0;
+   width : 1600px;
+   height: 506px;
+   background-color: #FFFFFF;
+   text-align: center;
+   margin: 0px 120px 120px 0px;
+}
+.think-section .think-container{
+    width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    margin:0 auto;
+    padding: 80px 40px 80px 40px;
+    border: none;
+    border-radius: 12px;
+
+}
+.think-header{
+    width: 1280px;
+    height:112px;
+    margin: 0 auto;
+
+}
+.think-header-h2{
+    width: 1280px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: auto;
+    color: #001931;
+    margin-bottom: 16px;
+
+    
+}
+.think-header-p{
+    width: 1280px;
+    height: 48px;
+    line-height: 24px;
+    color:#627382
+}
+.think-body{
+    max-width: 1280px;
+    height:88px;
+    margin: 24px 40px 80px 40px;
+}
+ .think-btn button{
+   max-width: 194px;
+    height: 52px;
+    background-color: #30B868;
+    text-align: left;
+    margin: 0 auto;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 12px 12px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    cursor: pointer;
+    
+}
+.think-body-p {
+    width: 1280px;
+    height: 20px;
+    color: #627382;
+    line-height:20px
+    
+
+}
+.footer-section{
+    max-width: 1600px;
+    height:348px;
+    background-color: #001931;
+}
+.footer-top
+{
+ width: 1360px;
+ height: 64px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 auto;
+ padding: 120px 120px 80px 120px;
+}
+.footer-logo{
+    width: 139px;
+    height: 60px;
+
+}
+social-links{
+    display: flex;
+    gap: 16px;
+}
+.social-links p{
+    width: 113px;
+    height:28px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height:28px;
+
+}
+.social-logo{
+    width: 92px;
+    height: 20px;
+    display: flex;
+    gap:16px;
+
+}
+ hr{
+    width: 1360px;
+    height: 0px;
+    border: 1px solid #394B61;
+    margin: 0 auto;
+ }
+ .footer-bootom{
+    width: 1360px;
+    height:54px;
+    text-align: center;
+    margin: 30px auto 0 auto;
+    color: #fafafa;
+    line-height: 24px;
+ }
 
 
 
